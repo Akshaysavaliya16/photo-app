@@ -21,6 +21,9 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'devise'
+gem 'devise-bootstrap-views'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
@@ -55,7 +58,7 @@ end
 
 group :production do
   gem 'pg'
-  gem 'rails_12factor'
+  #gem 'rails_12factor'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
